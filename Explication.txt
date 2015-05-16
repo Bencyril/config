@@ -10,7 +10,7 @@ $ mv solarized.vim ~/.vim/colors/
 Modify .vimrc
 -------------
 
-After either Option 1 or Option 2 above, put the following two lines in your .vimrc:
+After, put the following two lines in your .vimrc:
 
 syntax enable
 set background=dark
