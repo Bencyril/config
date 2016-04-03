@@ -1,10 +1,11 @@
-set nocompatible
-set backspace=indent,eol,start
-syntax enable
-set background=dark
-let g:solarized_termcolors=256
-filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
-set expandtab
-colorscheme solarized
+set runtimepath+=~/.vim_runtime
+
+source ~/.vim_runtime/vimrcs/basic.vim
+source ~/.vim_runtime/vimrcs/filetypes.vim
+source ~/.vim_runtime/vimrcs/plugins_config.vim
+source ~/.vim_runtime/vimrcs/extended.vim
+
+try
+source ~/.vim_runtime/my_configs.vim
+catch
+endtry
